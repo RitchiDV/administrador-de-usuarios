@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 // conectando la base de datos mongo db
 mongoose.connect(
-  "mongodb+srv://Hakdigital98:Adivinala123@ricardi.j4xrm.mongodb.net/?retryWrites=true&w=majority&appName=Ricardi"
+  "mongodb+srv://nombre de usuario:contraseña@ricardi.j4xrm.mongodb.net/?retryWrites=true&w=majority&appName=Ricardi"
 );
 
 app.get("/", user.list);
